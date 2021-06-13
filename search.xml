@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>helloWorld</title>
+      <link href="/2021/06/11/helloworld/"/>
+      <url>/2021/06/11/helloworld/</url>
+      
+        <content type="html"><![CDATA[<p>hello world</p><p>😂emoji</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何解题1-启发式思维</title>
+      <link href="/2021/06/11/%E5%A6%82%E4%BD%95%E8%A7%A3%E9%A2%981-%E5%90%AF%E5%8F%91%E5%BC%8F%E6%80%9D%E7%BB%B4/"/>
+      <url>/2021/06/11/%E5%A6%82%E4%BD%95%E8%A7%A3%E9%A2%981-%E5%90%AF%E5%8F%91%E5%BC%8F%E6%80%9D%E7%BB%B4/</url>
+      
+        <content type="html"><![CDATA[<p> <code>这次po参考了刘未鹏的超链接的博客写法，这种文章写法为读者提供一个知识索引，打开文章提供的链接，获得更大的知识量 让读者收获更大！</code></p><p> 今天读了2部分的《<a href="http://www.douban.com/subject/1456890/">How to solve it</a>》译本</p><p>顺便看了<a href="http://mindhacks.cn/2008/04/18/learning-from-polya/">跟波利亚学解题</a>这篇博客</p><p>来总结一下精髓!</p><h1 id="欧几里德式思维"><a href="#欧几里德式思维" class="headerlink" title="欧几里德式思维"></a>欧几里德式思维</h1><p>知乎告诉我们<a href="https://www.zhihu.com/question/20175736/answer/59829124">中国教育缺乏启发式思维，是填鸭教育</a></p><p>实际上欧几里德式教育，就像是那些教材数学书一样</p><blockquote><p>从小到大，我们看过的数学书几乎无一不是欧几里德式的：从定义到定理，再到推论。是属于“顺流而下”式的。这样的书完全而彻底的扭曲了数学发现的真实过程。</p><p>​    ——<a href="http://mindhacks.cn/2008/04/18/learning-from-polya/">跟波利亚学解题</a></p></blockquote><p>这里不评价这种教育的优劣，既然大多数人对西方的教育崇拜，不如和po一起去探究其中的一个归因！我们只谈启发式思维的方面</p><h1 id="启发式思维"><a href="#启发式思维" class="headerlink" title="启发式思维"></a>启发式思维</h1><h2 id="其实也有局限性"><a href="#其实也有局限性" class="headerlink" title="其实也有局限性"></a>其实也有局限性</h2><blockquote><p>“当布被刺破了，干草堆就重要了”，你怎么解释这句话？如果有人提示一下“降落伞”，每个人都会恍然大悟。这是因为从“布”到“降落伞”之间的单向联系是近乎不存在的。而且就算运用启发法，譬如，考虑所有布做的东西，也基本绝无可能想到降落伞，因为同样，从“布做的东西”到“降落伞”之间的关联也是极其微弱的……那为什么在我们的这个问题中，一旦有人提到降落伞，我们就能建立从布到降落伞的关联呢？这是因为“降落伞”和“布”这两个语意单元的同时兴奋增大了它们之间关联的可能性，就好比是加大另一端的电压从而发生了“击穿”一样。</p><p>​    ——<a href="http://mindhacks.cn/2008/04/18/learning-from-polya/">跟波利亚学解题</a></p></blockquote><p>po直接甩出了该思维的劣势情景，以便你能抓住关键信息，直捣黄龙。</p><p>启发式思维是在大脑的长期记忆区对有联系的内容进行穷举，然而却很有限，就好比你不能看透五子棋的10步以后一样。</p><h2 id="穷举的进阶！"><a href="#穷举的进阶！" class="headerlink" title="穷举的进阶！"></a>穷举的进阶！</h2><p>通过一块砖头你能想到什么用途？</p><p>这个问题，其实是有思考的方法的，想象砖头的性质，形态，温度，气味。。。</p><p>然后根据特征进行联想，这种方法听起来不错！</p><p>这就是把具体问题转化为元方法的能力</p><p>然而还是避免不了局限性</p><h2 id="如何解题？"><a href="#如何解题？" class="headerlink" title="如何解题？"></a>如何解题？</h2><p>显然，启发式思维也有解不了题的困境。</p><p>那么看《<a href="http://www.douban.com/subject/1456890/">How to solve it</a>》中提供的方法</p><p>找到未知量</p><p>反推</p><p>找相似问题</p><p>反思问题</p><p>。。。</p><p>以上方法可弥补缺陷-</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>降低高血压的健康饮食法dash</title>
+      <link href="/2021/06/07/%E9%A5%AE%E9%A3%9F%E6%B3%95dash/"/>
+      <url>/2021/06/07/%E9%A5%AE%E9%A3%9F%E6%B3%95dash/</url>
+      
+        <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>得舒饮食(DASH diet)全名是Dietary Approaches to Stop Hypertension，意思是停止高血压的饮食型态，由美国国家卫生院国家心肺与血液研究所（NHLBI）于1997年发表的一项饮食方法。<span id="more"></span></p><p>得舒饮食富含水果、蔬菜、全谷类以及低脂食物；<br>包含鱼、肉、家禽、坚果与豆类；<br>并且限制高糖食物及饮料、红肉以及添加脂肪的摄取。<br>除了对于血压的效果之外，得舒饮食也是一个设计给社会大众的均衡饮食模式。<br>得舒饮食也被美国农业部推荐为所有美国人的理想饮食计划之一。</p><p><a href="https://zh.wikipedia.org/wiki/%E5%BE%97%E8%88%92%E9%A3%B2%E9%A3%9F">得舒饮食 - 维基百科，自由的百科全书 (wikipedia.org)</a></p><h1 id="具体的实施方法"><a href="#具体的实施方法" class="headerlink" title="具体的实施方法"></a>具体的实施方法</h1><h2 id="1-估算卡路里需求"><a href="#1-估算卡路里需求" class="headerlink" title="1.估算卡路里需求"></a>1.估算卡路里需求</h2><p><img src="/images/v2-cd3ae837550658d811b6d35cd55c5527_720w.png"></p><h2 id="2-算出食物份数"><a href="#2-算出食物份数" class="headerlink" title="2.算出食物份数"></a>2.算出食物份数</h2><p><img src="/images/v2-f71a3b470316d12cb9fb0e12e3a15865_720w.png"></p><h2 id="3-寻找示例食物"><a href="#3-寻找示例食物" class="headerlink" title="3.寻找示例食物"></a>3.寻找示例食物</h2><p><img src="/images/v2-bb6472416427ea345a4630643ee8ec8b_720w.jpg"></p><h1 id="注意要点"><a href="#注意要点" class="headerlink" title="注意要点"></a>注意要点</h1><h2 id="日常规范"><a href="#日常规范" class="headerlink" title="日常规范"></a>日常规范</h2><ul><li>经常运动。</li><li>保持健康的体重。</li><li>限制饮酒。</li><li>管理和应对压力。</li><li>如果你抽烟，停止。</li><li>充足的睡眠。</li></ul><h2 id="选择食物"><a href="#选择食物" class="headerlink" title="选择食物"></a>选择食物</h2><ul><li>饱和脂肪和反式脂肪含量低</li><li>富含钾，钙，镁，纤维和蛋白质</li><li>钠含量较低</li></ul><h2 id="减少每日卡路里"><a href="#减少每日卡路里" class="headerlink" title="减少每日卡路里"></a>减少每日卡路里</h2><ul><li>每天多餐，份量少点。</li><li>少吃肉，多吃水果，蔬菜，全谷物或干豆。</li><li>尽可能地用低热量食物替代，如零食（选择水果或蔬菜而不是甜食和甜点）或饮料（选择水而不是苏打水或果汁）。</li></ul><p><img src="/images/v2-c03bd2d6bdd9c7e048c734871972d099_720w.png"></p><h1 id="为什么要选择Dash"><a href="#为什么要选择Dash" class="headerlink" title="为什么要选择Dash?"></a>为什么要选择Dash?</h1><p><strong>控制每日钠的摄入量和卡路里</strong></p><p>要想从经证实可靠的DASH饮食计划中受益，关键是将每日钠摄入限制到2300毫克或1500毫克。并且消耗适量的热量以保持健康的体重或需要时减轻体重。</p><p><strong>增加每日钾的摄入量</strong></p><p>DASH饮食计划旨在多吃钾，目标每日4700毫克的钾，提高少吃纳降压的效果。</p><p><img src="/images/v2-8d4b0f26eca850f5e0dd8649b0b3bbe2_720w.png"></p><h2 id="研究结果"><a href="#研究结果" class="headerlink" title="研究结果"></a>研究结果</h2><ul><li><strong>DASH（膳食方法防治高血压试验）：</strong>与一个典型的美式饮食计划或食用更多的水果蔬菜的饮食计划相比，DASH饮食降低了血压和低密度脂蛋白胆固醇。</li><li><strong>DASH钠（DASH饮食，钠摄入量和血压试验）：</strong>DASH饮食降低血压的效果好于每天三次摄入钠的典型的美式饮食计划。将DASH饮食与钠摄入量减少相结合比单独的DASH饮食具有更大的健康益处。</li><li><strong>PREMIER临床试验：</strong>人们可以通过遵循DASH饮食计划并增加体育运动来减轻体重降血压。</li></ul><h1 id="例子–列举每日菜单"><a href="#例子–列举每日菜单" class="headerlink" title="例子–列举每日菜单"></a>例子–列举每日菜单</h1><h3 id="Day-1-menu"><a href="#Day-1-menu" class="headerlink" title="Day 1 menu"></a>Day 1 menu</h3><h4 id="Breakfast"><a href="#Breakfast" class="headerlink" title="Breakfast"></a>Breakfast</h4><ul><li> 1个从商店买来的全麦面包圈🥨，加2汤匙花生酱(不加盐)</li><li>1个中等大小的橙子🍊</li><li>1杯脱脂牛奶🥛</li><li>无咖啡因咖啡☕</li></ul><h4 id="Lunch"><a href="#Lunch" class="headerlink" title="Lunch"></a>Lunch</h4><ul><li><p>用以下材料制作的菠菜沙拉:🥗</p><ul><li>4杯新鲜菠菜叶</li><li> 1片梨</li><li> 1/2杯罐装柑桔片</li><li> 1/3杯切片杏仁</li><li> 2汤匙红酒醋汁</li></ul></li><li><p> 12块低钠小麦饼干</p></li><li><p>1杯脱脂牛奶🥛</p></li></ul><h4 id="Dinner"><a href="#Dinner" class="headerlink" title="Dinner"></a>Dinner</h4><ul><li> 香草烤鳕鱼🐟，3盎司熟肉🥩(约4盎司生)</li><li>1/2杯糙米饭拌蔬菜</li><li> 1/2杯蒸青豆🥫</li><li>1个小酸面包卷🍞</li><li> 2茶匙橄榄油</li><li>1杯新鲜浆果和切碎的薄荷</li><li>草本冰茶🍸</li></ul><h4 id="Snack-anytime"><a href="#Snack-anytime" class="headerlink" title="Snack (anytime)"></a>Snack (anytime)</h4><ul><li>1杯无脂肪，低热量的酸奶</li><li> 4个香草威化饼</li></ul><table><thead><tr><th align="left">第一天的营养分析</th><th></th><th></th><th></th></tr></thead><tbody><tr><td align="left">卡路里:</td><td>2,015</td><td>胆固醇:</td><td>70 mg</td></tr><tr><td align="left">脂肪总量:</td><td>70 g</td><td>钠:</td><td>1,607 mg</td></tr><tr><td align="left">饱和脂肪:</td><td>10 g</td><td>碳水化合物总量:</td><td>267 g</td></tr><tr><td align="left">反式脂肪:</td><td>0 g</td><td>膳食纤维:</td><td>39 g</td></tr><tr><td align="left">单元不饱和脂肪</td><td>25 g</td><td>总糖:</td><td>109 g</td></tr><tr><td align="left">钾:</td><td>3,274 mg</td><td>蛋白质:</td><td>90 g</td></tr><tr><td align="left">钙:</td><td>1,298 mg</td><td>镁:</td><td>394 mg</td></tr></tbody></table><table><thead><tr><th align="left">第一天的 DASH 餐</th><th></th></tr></thead><tbody><tr><td align="left">谷物及谷类制品:</td><td>7</td></tr><tr><td align="left">蔬菜:</td><td>5</td></tr><tr><td align="left">水果:</td><td>5</td></tr><tr><td align="left">乳制品(低脂或无脂) :</td><td>3</td></tr><tr><td align="left">肉类、家禽及鱼类:</td><td>3</td></tr><tr><td align="left">坚果、种子和干豆:</td><td>2</td></tr><tr><td align="left">油脂:</td><td>3</td></tr><tr><td align="left">甜食:</td><td>1</td></tr></tbody></table><p>更多菜单请看→<a href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110">Sample menus for the DASH diet - Mayo Clinic</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
