@@ -4,11 +4,24 @@
   
     
     <entry>
+      <title>记录我的文件同步方案</title>
+      <link href="/2021/09/20/%E8%AE%B0%E5%BD%95%E6%88%91%E7%9A%84%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/"/>
+      <url>/2021/09/20/%E8%AE%B0%E5%BD%95%E6%88%91%E7%9A%84%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</url>
+      
+        <content type="html"><![CDATA[<p>论2个windows如何同步文件，做到数据全掌握。</p><span id="more"></span><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><p>po个人是不信大厂的云盘，笔记，照片，视频，音乐的。</p><p>曾经经历过360停止运营，网易云删歌，bilibili删视频等。</p><p>尽量以好的方式把信息掌握在自己手里。</p></blockquote><p>因为穷，目前的方案是 同步云盘 把笔记数据同步过去，还有局域网同步文件数据。</p><p>暂时没用NAS同步各种数据，日后安排！</p><h1 id="怎么做？"><a href="#怎么做？" class="headerlink" title="怎么做？"></a>怎么做？</h1><p>首先，你的磁盘文件需要良好的存放整理习惯。个人习惯如下：</p><h3 id="过时数据"><a href="#过时数据" class="headerlink" title="过时数据"></a>过时数据</h3><p>总在犹豫不想删掉的纪念相片，费力挖掘的游戏模组，儿时的得意作品，好不容易研究完毕的电子资料。。。</p><p>现在你可以<strong>归档</strong>他们了！把过时数据文件夹分别建立压缩包，压缩包命名为【时间-类型-资料名】例如我找到了小学旅游相片，文件时间是1999，命名为【1999-照片-小学旅游.7z】</p><h3 id="常用软件包"><a href="#常用软件包" class="headerlink" title="常用软件包"></a>常用软件包</h3><p>精选自己喜爱的常用软件，把他们集合起来。。就算是重装系统，也只需要解压软件包即可。尽量挑选绿色版软件，把他们放到portable文件夹中，没有绿色版就放安装包。</p><h3 id="个人笔记"><a href="#个人笔记" class="headerlink" title="个人笔记"></a>个人笔记</h3><p>使用本地笔记软件，比如md文件，将他们同步，把全部数据都记录在这里就好了！</p><h3 id="影音图片"><a href="#影音图片" class="headerlink" title="影音图片"></a>影音图片</h3><p>尽量放在家里的nas，然后nas再同步到各大云盘，家里地震数据不丢~</p><h3 id="密码管理"><a href="#密码管理" class="headerlink" title="密码管理"></a>密码管理</h3><p>密码集中管理，使用本地密码软件，支持文件备份的，同步后密码就不会丢了。</p><h1 id="良好的文件夹结构"><a href="#良好的文件夹结构" class="headerlink" title="良好的文件夹结构"></a>良好的文件夹结构</h1><p>网络上没有太多关于文件夹结构的资料，代码工程里一般是src,doc,bin之类的</p><p>那么磁盘里文件夹要如何存放呢？</p><p>我个人习惯是这样的。</p><ul><li>Software——子分类cache，coreware，fastpack，hardware等等。。</li><li>Game——子分类platform，gametool，gamemod，offline，netgame等等。。</li><li>Lib——子分类 windows的各种影音图片文档下载库，快捷方式库等等</li><li>Code——作为程序员，需要给代码单独一个文件夹</li><li>inbox——不知道咋分类的文件，先放这里暂存就好了。</li></ul><h1 id="QA"><a href="#QA" class="headerlink" title="QA"></a>QA</h1><p>Q磁盘如何分区？</p><p>A如果系统是一块大盘，剩下的分一个区即可，其他磁盘 一盘一区，可以把软件和游戏分开放置，每个分区的文件夹都差不多是上述结构。</p><p>Q为什么归档成压缩包？</p><p>A文件太多又不需要天天看，压缩起来存着也不会坏，还更快更小方便备份~</p><p>Q为什么要同步到NAS再到网盘？</p><p>A你的文件经过多次备份，第一次到nas，防止机器/磁盘损坏造成数据丢失，第二次到网盘，防止地震等原因，使你的数据在全球多个地方存在。</p><p>Q桌面放啥</p><p>A桌面甚至不需要，使用博客推荐过的快速启动软件即可！</p><p>Q玩一些有可能有毒的游戏/软件，文件可能被破坏要怎么办？</p><p>A长期备用一个虚拟机，安装64位win7，设有快照还原，非必要的程序和游戏都在里面使用，安全又方便。或者给自己设置还原点，危险软件小心为妙。</p><p>欢迎留言，探讨更多同步备份方案~</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>helloWorld</title>
       <link href="/2021/09/10/helloworld/"/>
       <url>/2021/09/10/helloworld/</url>
       
-        <content type="html"><![CDATA[<p>hello world</p><p>😂emoji</p>]]></content>
+        <content type="html"><![CDATA[<p>hello world</p><span id="more"></span><p>😂emoji</p>]]></content>
       
       
       
