@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>如何解题2-成为一名程序员的方法</title>
+      <link href="/2021/10/06/%E5%A6%82%E4%BD%95%E8%A7%A3%E9%A2%982-%E6%88%90%E4%B8%BA%E4%B8%80%E5%90%8D%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+      <url>/2021/10/06/%E5%A6%82%E4%BD%95%E8%A7%A3%E9%A2%982-%E6%88%90%E4%B8%BA%E4%B8%80%E5%90%8D%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>由程序员你会想到什么?利用启发式思维来想想</p><p>🎪第1层：黑客？头发少？工资高？单身狗？</p><p>🎪第2层：C语言？AI技术？网站开发？</p><p>🎪第3层：软件工程？计算机原理？编程思维？</p><p>🎪第4层：哈希链表？二叉树？广度优先算法？lambda表达式？泛型？</p><p>。。。</p><span id="more"></span><p>层级越高，知识越细，就像一个楼梯，沿着台阶一层层深入，思维越发开阔，难度越发增高。</p><h1 id="现实问题"><a href="#现实问题" class="headerlink" title="现实问题"></a>现实问题</h1><p>奈何大学生的计算机教学设计不合理，专科竟然是这样学习的。。。</p><h3 id="计算机网络——大学生张三的学习经历"><a href="#计算机网络——大学生张三的学习经历" class="headerlink" title="计算机网络——大学生张三的学习经历"></a>计算机网络——大学生张三的学习经历</h3><p>大一：计算机基本操作——&gt;网络基础原理——&gt;制作拓扑图——X电路板焊接？</p><p>大二：python——Xmysql——Xlinux——Xjava面向对象——Xhtml</p><p>大三：前端方向：python界面框架——Xhtml5css——&gt;apache服务器部署——Xphp——Xps软件使用</p><p>我们发现了严重的问题：</p><ul><li>学习路线分支混乱，多而不精</li><li>缺乏基本课程，没有程序员思维</li></ul><h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>编程5大宝贝缺一不可</p><ol><li>🎉宝贝1学习编程思维 <a href="https://www.bilibili.com/video/BV15C4y1t7ep">https://www.bilibili.com/video/BV15C4y1t7ep</a></li><li>🎉宝贝2学习计算机原理</li><li>🎉宝贝3学习软件工程<a href="https://www.bilibili.com/video/BV1eE411V7Cr">【软件工程】清华大学_哔哩哔哩_bilibili</a></li><li>🎉宝贝4学习数据结构与算法</li><li>🎉宝贝5github使用，git使用，对项目进行管理</li><li>挑选一个招聘岗位需要的人才作为学习方向</li><li>学习该岗位语言，运用上面的宝贝来实践</li><li>学习该岗位框架，运用上面的宝贝来实践</li></ol><h3 id="闲聊总结"><a href="#闲聊总结" class="headerlink" title="闲聊总结"></a>闲聊总结</h3><p>学习技术在于专一，若深受大学课程毒害，那么就会使大脑错乱，产生一种什么都会，又什么都不会的幻觉。</p><p>我给出的解决方法是线性的，可先进行第6条，然后按顺序同时学习，效果比大学不知高到哪去，大学的方案还是too simple，sometimes naive😝</p><p>How to doing that “how to solve it”？it is a question.</p><p>The answer is 通过最优的线性学习路径，全面掌握他的知识，站在高处走向巅峰。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>FBI魔兽工具箱</title>
       <link href="/2021/10/04/FBI%E9%AD%94%E5%85%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
       <url>/2021/10/04/FBI%E9%AD%94%E5%85%BD%E5%B7%A5%E5%85%B7%E7%AE%B1/</url>
