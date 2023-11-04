@@ -1,0 +1,345 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>记录我的文件同步方案 | FbiCirnoBlog</title>
+  <meta name="author" content="FbiCirno">
+  
+  <meta name="description" content="正在做的事">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="记录我的文件同步方案"/>
+  <meta property="og:site_name" content="FbiCirnoBlog"/>
+
+  
+    <meta property="og:image" content=""/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/themes/cerulean.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight-default.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/comment.css" media="screen" type="text/css">
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-sham.min.js"></script>
+  <![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+  
+    <script src="/js/marked.js"></script>
+    <script src="/js/comment.js"></script>
+    <script src="/js/timeago.min.js"></script>
+    <script src="/js/highlight.min.js"></script>
+	<script src="/js/spin.min.js"></script>
+  
+  <!-- analytics -->
+  
+
+
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/">FbiCirnoBlog</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+    <div class="content">
+      
+
+
+	
+		<div class="page-header page-header-inverse ">		
+			<h1 class="title title-inverse "> 记录我的文件同步方案</h1>
+		</div>		
+	
+
+
+
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  		
+
+	  <p>2个windows如何同步文件，双向同步。</p>
+<span id="more"></span>
+
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
+<p>国内云盘会审查 笔记，照片，视频，音乐。</p>
+<p>例如：360云盘停止运营，网易云删歌，bilibili删视频等。</p>
+</blockquote>
+<p>目前的方案是 nas云盘 同步笔记数据(大约800 MB)，nas数据同步到其他网盘中。</p>
+<h1 id="怎么做？"><a href="#怎么做？" class="headerlink" title="怎么做？"></a>怎么做？</h1><p>首先，你的磁盘文件需要良好的存放整理习惯。个人习惯如下：</p>
+<h3 id="过时数据"><a href="#过时数据" class="headerlink" title="过时数据"></a>过时数据</h3><p>例如：纪念相片，游戏模组，个人作品，电子资料。。。</p>
+<p>把这些数据进行<strong>归档</strong>处理。<br>具体操作：把每种数据文件夹分别建立压缩包<br>压缩包命名为【时间-类型-资料名】</p>
+<p>例如：小学旅游相片，文件时间是1999，命名为【1999-照片-小学旅游.7z】</p>
+<h3 id="常用软件包"><a href="#常用软件包" class="headerlink" title="常用软件包"></a>常用软件包</h3><p>软件分为3种，便携小软件，安装包，实时更新的安装包</p>
+<p>便携小软件：推荐放入快速启动软件中，压缩成工具箱，用相对路径链接快捷启动</p>
+<p>安装包：通常是无需更新的，或修改过的，直接放入文件夹</p>
+<p>实时更新的安装包：用txt记录下载地址即可</p>
+<h3 id="个人笔记"><a href="#个人笔记" class="headerlink" title="个人笔记"></a>个人笔记</h3><p>笔记分为2种，随记，知识库</p>
+<p>随记：直接记录在onenote，或者幕布</p>
+<p>知识库：需文件同步</p>
+<h3 id="影音图片"><a href="#影音图片" class="headerlink" title="影音图片"></a>影音图片</h3><p>视频音乐图片，分为热文件，冷文件</p>
+<p>冷文件：长时间不会打开的归为过时数据</p>
+<p>热文件：时而会打开的放入网盘 (通常不会频繁修改文件)</p>
+<h3 id="密码管理"><a href="#密码管理" class="headerlink" title="密码管理"></a>密码管理</h3><p>用keepass，登录支持webdav的网盘存储密码，每隔一段时间手动冷备份到网盘。</p>
+<h1 id="良好的文件夹结构"><a href="#良好的文件夹结构" class="headerlink" title="良好的文件夹结构"></a>良好的文件夹结构</h1><ul>
+<li>Software——cache，installed(安装软件)，portable(便携软件)，hardware(硬件，支持库)</li>
+<li>Game——platform，tool，mod，offline，netgame</li>
+<li>Lib——windows库文件夹，快捷方式，字体，</li>
+<li>Code——编程语言</li>
+<li>inbox——暂存</li>
+</ul>
+<h1 id="QA"><a href="#QA" class="headerlink" title="QA"></a>QA</h1><p>Q磁盘如何分区？</p>
+<p>A如果系统是一块大盘，剩下的分一个区即可，其他磁盘 一盘一区，每个分区的文件夹都是上述结构。</p>
+<p>Q为什么归档成压缩包？</p>
+<p>A冷文件无需频繁查看。</p>
+<p>Q为什么要同步到NAS再到网盘？</p>
+<p>A你只需要操作一次同步，就会进行多方备份。 当NAS损坏，火灾地震，其他网盘停运时，依然保持数据不丢失。</p>
+<p>欢迎留言，探讨更多同步备份方案~</p>
+<h2 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h2><p>笔记同步盘(4个)：nas &lt;—双向—&gt; onedrive &lt;—双向—&gt; pcloud<br>        nas 单向-&gt; 百度盘<br>        【若nas断电，用onedrive】</p>
+<p>软件站(安装 工具箱 txt)(4个)：百度云，阿里云，超星，天翼云</p>
+<p>冷备份(过时数据)：百度云，阿里云，icloud，【科学】谷歌，mega</p>
+	  
+	</div>
+
+	<!-- recommended posts -->
+	
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/2021/09/19/helloworld/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>上一页</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/2021/09/03/网络信息流推荐-长期更新/" class="alignright next">下一页<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+
+    <!-- share -->
+    
+        
+    <div class="bdsharebuttonbox">
+        <a href="#" class="bds_more" data-cmd="more"></a>
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+        <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+        <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+        <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+        <a href="#" class="bds_evernotecn" data-cmd="evernotecn" title="分享到印象笔记"></a>
+        <a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a>
+        <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+    </div>
+    <script>
+        window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+
+
+        
+
+    
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
+    	 
+	 <div id="comment-thread"></div>
+	 <div id="loading-spin"></div>
+	 <script type="text/javascript">
+	   getComments({
+           type: "github" ? "github" : "github",       
+	       user: "fbicirno",
+	       repo: "fbicirno.github.io",
+		   client_id: "748dc81ffbc72d320639",
+           client_secret: "817e1b8fc302e8de7b59994268c9ac42112b3f38",
+		   no_comment: "暂时还没有留言呢，点击下面的按钮去留言吧！",
+		   go_to_comment: "去留言",
+		   no_issue: "no_issue",
+		   issue_title: "记录我的文件同步方案",
+		   issue_id: "",
+		   btn_class: "btn btn-primary",
+		   comments_target: "#comment-thread",
+		   loading_target: "#loading_spin"
+		   });
+	 </script>
+  
+</section>
+
+
+	</div> <!-- col-md-9/col-md-12 -->
+		
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2021-09-19 
+	</div>
+	
+
+	<!-- categories -->
+    
+
+	<!-- tags -->
+	
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	</div>
+		
+
+</div><!-- row -->
+
+
+
+    </div>
+  </div>
+  <div class="container-narrow">
+    <footer> <p>
+  &copy; 2023 FbiCirno
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a target="_blank" rel="noopener" href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
+</p> </footer>
+  </div> <!-- container-narrow -->
+  
+
+
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+
+<!-- syntax highlighting -->
+
+  <script>
+  marked.setOptions({
+    highlight: function (code, lang) {
+        return hljs.highlightAuto(code).value;
+    }
+  });
+  function Highlighting(){
+    var markdowns = document.getElementsByClassName('markdown');
+    for(var i=0;i<markdowns.length;i++){
+        if(markdowns[i].innerHTML) markdowns[i].innerHTML =marked(markdowns[i].innerHTML);
+    }
+  }
+  window.addEventListener('DOMContentLoaded', Highlighting, false);
+  window.addEventListener('load', Highlighting, false);
+  </script>
+
+
+</body>
+</html>
